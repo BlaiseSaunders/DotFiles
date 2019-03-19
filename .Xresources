@@ -1,0 +1,74 @@
+!!!!!!!!!!!!!!!
+!             !
+! c o l o r s !
+!             !
+!!!!!!!!!!!!!!!
+
+! special
+*.foreground: #efefef
+*.background: #232323
+!*.background: #2c2c2c
+*.cursorColor: #efefef
+
+! black
+*.color0: #1b1b1b
+*.color8: #1b1b1b
+!*.color0: #2b2b2b
+!*.color8: #2b2b2b
+
+! red
+*.color1: #96122b
+*.color9: #931400
+
+! green
+*.color2: #92ac68
+*.color10: #92ac68
+
+! yellow
+*.color3: #cf9911
+*.color11: #cf9911
+
+! blue
+*.color4: #00a5a7
+*.color12: #00a5a7
+
+! magenta
+*.color5: #00a5a7
+*.color13: #00a5a7
+
+! cyan
+*.color6: #00a5a7
+*.color14: #00a5a7
+
+! white
+*.color7: #efefef
+*.color15: #b5b5b5
+!!!!!!!!!!!!!
+!           !
+! u r x v t !
+!           !
+!!!!!!!!!!!!!
+
+URxvt*geometry:			112x22
+*font:				xft:Droid Sans Mono:size=10:style=bold:antialias=true:hinting=true:autohint=true,xft:WenQuanYi Bitmap Song:pixelsize=100:antialias=false
+URxvt*urlLauncher:		firefox
+URxvt*scrollBar:		false
+URxvt*scrollBar_right:		true
+URxvt*scrollColor:		#000000
+URxvt*letterSpace:		0
+
+urxvt*depth: 32
+!URxvt.transparent:		true
+urxvt*background: rgba:0000/0000/0200/7800
+!urxvt*background: rgba:0000/0000/0200/0000
+
+
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+!rofi.color-enabled: true
+!rofi.color-window: argb:01b1b1b, argb:0002b36, argb:0000000
+!rofi.color-normal: #1b1b1b, #efefef, #2b2b2b, #586e75, #eee8d5
+!rofi.color-active: #fdf6e3, #268bd2, #eee8d5, #268bd2, #fdf6e3
+!rofi.color-urgent: #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
